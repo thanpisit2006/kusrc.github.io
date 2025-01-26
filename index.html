@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KUSRC : THANPISIT</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="./assets/gears.svg">
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- SLICKJS -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+
+<body>
+  <!-- SNOW -->
+  <div id="snow-container"></div>
+  <script src="./script.js"></script>
+
+<!-- BAR -->
+<div id="BAR">
+  <section id="bar">
+    <nav>
+      <!-- Checkbox for toggling menu -->
+      <input type="checkbox" id="check">
+  
+      <!-- Menu icon -->
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+  
+      <!-- Site logo -->
+      <label class="logo">PORTFOLIO</label>
+  
+      <!-- Navigation links -->
+      <ul>
+        <!-- HOME PAGE LINK BUTTON-->
+        <li class="nav__link">
+          <a href="./index.html" class="
+            active
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">HOME</a>
+        </li>
+
+        <!-- PERFORMANCE PAGE LINK BUTTON-->
+        <li class="nav__link">
+          <a href="./performance.html" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">PERFORMANCE</a>
+        </li>
+
+        <!-- ACTIVITY PAGE LINK BUTTON-->
+        <li class="nav__link">
+          <a href="./activity.html" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">ACTIVITY</a>
+        </li>
+
+        <!-- MAIL LINK BUTTON-->
+        <li class="nav__link">
+          <a href="mailto:thanpisit2549@icloud.com" class="
+            nav__link--anchor
+            nav__link--anchor-primary
+          ">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+
+  <!-- HOME SECTION -->
+  <div id="ABOUT-ME">
+  <section id="about-me">
+    <div class="flex flex-1">
+      <div class="about-me__info row">
+        <div class="about-me__info--container">
+          <figure class="about-me__picture--mask">
+            <img src="./assets/me.jpeg" class="about-me__picture" alt="THANPISIT'S PICTURE">
+          </figure>
+          <h2 class="about-me__info--title">
+            Hello! and Welcome! to
+          </h2>
+          <h1 class="about-me__info--title">
+            <span class="text--purple">MR.THANPISIT RITPETCHNIL</span>&nbsp;<span class="wave">👋</span>
+          </h1>
+          <h2 class="about-me__info--title">
+            Portfolio
+          </h2>
+          <h2 class="about-me__info--title">
+            Grade 12<sup>th</sup> Student at
+          </h2>
+          <h1 class="about-me__info--title"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/PCSHS_Chon_Buri_%28th%29.svg/250px-PCSHS_Chon_Buri_%28th%29.svg.png" alt="" class="gallery__logo"></h1>
+          <h2 class="about-me__info--title">
+            <strong class="text--orangepcc">Princess</strong><strong class="text--blue"> Chulabhorn </strong><strong class="text--orangepcc">Science</strong><strong class="text--blue"> High </strong><strong class="text--orangepcc">School</strong><strong class="text--blue"> Chonburi</strong>
+          </h2>
+          <h1 class="about-me__info--title"><img src="./assets/kusrceng.png" alt="" class="gallery__logo"></h1>
+          <h1 class="about-me__info--title">
+            <span class="text--brown">คณะวิศวกรรมศาสตร์ ศรีราชา<br>สาขาวิศวกรรมคอมพิวเตอร์และสารสนเทศศาสตร์</span>
+            <br><span class="text--greenuni">มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตศรีราชา</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOP -->
+  <section id="sop">
+    <div class="container">
+      <div class="row">
+        <h1 class="section__title"><span class="text--brownuni">STATEMENT</span> OF <span class="text--brownuni">PURPOSE</span></h1>
+          <p class="project1__description--para">
+            &emsp;&emsp;&emsp;&emsp;&emsp;คณะวิศวกรรมศาสตร์ ศรีราชา สาขาวิศวกรรมคอมพิวเตอร์และสารสนเทศศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตศรีราชา เป็นเส้นทางการศึกษาที่ผมให้ความสนใจและต้องการเข้าศึกษาต่อ เนื่องจากผมมีความสนใจศึกษาและเรียนรู้การเขียนและพัฒนาโปรแกรมคอมพิวเตอร์ รวมถึงการสร้างและพัฒนาเทคโนโลยีต่างๆ ให้มีความทันสมัยสามารถช่วยอำนวยความสะดวกในชีวิตประจำวันได้ พร้อมทั้งมีความฝันที่จะเป็นส่วนหนึ่งในการสร้างสรรค์เทคโนโลยีที่ก่อให้เกิดประโยชน์ต่อโลก ดังนั้น ผมจึงนำความสนใจมาเป็นแรงผลักดันสู่การตั้งเป้าหมายเส้นทางการศึกษาในอนาคต
+            <br><br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;ขณะที่ผมเรียนในระดับชั้นมัธยมศึกษาตอนต้น ผมได้เริ่มต้นเรียนรู้การเขียนโปรแกรมคอมพิวเตอร์ขั้นพื้นฐาน ซึ่งเป็นจุดเริ่มต้นที่ทำให้ผมเกิดความสนใจและมีใจรักที่จะเรียนรู้ในการเขียนโปรแกรม ผมจึงใช้เวลาว่างในการศึกษาเพื่อหาข้อมูลเกี่ยวกับการเขียนโปรแกรม รวมไปถึงการศึกษาหลักการทำงานของโปรแกรมต่างๆ ที่พบได้ในชีวิตประจำวัน เช่น ศึกษาหลักการสร้างเว็บไซต์ ศึกษาการสร้างแอปพลิเคชัน ศึกษาการเขียนโค้ดควบคุมการทำงานของบอร์ด Microbit และบอร์ด Arduino UNO และมีการศึกษาหาความรู้เกี่ยวกับเทคโนโลยีต่างๆ จากแหล่งเรียนรู้ออนไลน์ และต่อมาเมื่อผมเริ่มเรียนในระดับชั้นมัธยมศึกษาตอนปลาย ผมได้เรียนเกี่ยวกับการเขียนโปรแกรมคอมพิวเตอร์ที่มีความซับซ้อนและท้าทายมากขึ้น ซึ่งผมสามารถนำความรู้ที่มีมาต่อยอดจนเป็น Mini Project และชิ้นงานนวัตกรรมจนสามารถนำไปทดลองใช้งานและพบว่าชิ้นงานนวัตกรรมของผมสามารถช่วยอำนวยความสะดวกในชีวิตประจำวันได้
+            <br><br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;ในสาขาวิศวกรรมคอมพิวเตอร์และสารสนเทศศาสตร์ผมมีความรู้และทักษะในการเรียนรู้และการเขียนโปรแกรมที่หลากหลาย ทั้งการเขียนโปรแกรมด้วยภาษา Python ภาษา C++ ซึ่งเป็นพื้นฐานสำหรับการเขียนโปรแกรม ซึ่งสามารถนำไปต่อยอดในการศึกษาได้ และผมมีความมั่นใจว่าความรู้ ประสบการณ์ และความสามารถที่ผมมี จะสามารถนำมาเป็นพื้นฐานที่สามารถทำให้ผมประสบความสำเร็จทางการศึกษาในระดับอุดมศึกษาได้
+            <br><br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;หากผมได้รับโอกาสเข้าร่วมศึกษาในคณะวิศวกรรมศาสตร์ ศรีราชา สาขาวิศวกรรมคอมพิวเตอร์และสารสนเทศศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตศรีราชา ผมจะใช้ความรู้และทักษะที่มีอยู่ในการศึกษาและพัฒนางานวิจัยหรือโปรเจกต์ต่างอย่างสุดความสามารถ พร้อมทั้งจะไม่ยึดติดอยู่กับความรู้ที่มีเท่านั้นแต่จะศึกษาหาความรู้ใหม่ๆ อย่างสม่ำเสมอเพื่อที่จะพัฒนาตนเองให้สามารถสร้างผลงานที่สามารถสร้างประโยชน์ต่อสังคมได้
+            <br><br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;ดังนั้น คณะวิศวกรรมศาสตร์ ศรีราชา สาขาวิศวกรรมคอมพิวเตอร์และสารสนเทศศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตศรีราชา จึงเป็นเส้นทางการศึกษาที่ผมตัดสินใจเลือกศึกษาต่อในระดับอุดมศึกษา โดยเห็นว่าการศึกษาในสาขา คณะ และมหาวิทยาลัยนี้จะสามารถเปิดโอกาสที่ดี ทั้งในด้านการศึกษา และด้านการประกอบอาชีพในอนาคตให้แก่ผม เนื่องจากมหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตศรีราชา เป็นสถาบันทางการศึกษาที่ประกอบไปด้วยคณะอาจารย์และบุคลากรที่มีทั้งประสบการณ์และความสามารถ ซึ่งเป็นปัจจัยหลักในการสร้างนักศึกษาให้เป็นบัณฑิตที่มีคุณภาพ พร้อมทั้งการมีหลักสูตรและเทคโนโลยีด้านการศึกษาที่มีความทันสมัย
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+        <h1 class="section__title"><span class="text--brownuni">SKILLS</span> AND <span class="text--brownuni">ABILITIES</span></h1>
+        
+        <!-- SOFT SKILLS -->
+        <h2 class="subtitle textcenter">SOFT SKILLS</h2>
+        <div class="language__list">
+
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="./assets/interpersonal-skills.png"
+                alt="Communication skills" class="language__img" />
+            </figure>
+            <span class="language__name">Communication skills</span>
+          </div>
+
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img 
+                src="./assets/partners.png"
+                alt="Teamwork skills" class="language__img" />
+            </figure>
+            <span class="language__name">Teamwork skills</span>
+          </div>
+
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/english.png" 
+              alt="English language skills for study and work" class="language__img" />
+            </figure>
+            <span class="language__name">English language skills for study and work</span>
+          </div>
+
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/problem-solving-skills.png"
+                alt="Decision-making and problem-solving skills" class="language__img" />
+            </figure>
+            <span class="language__name">Decision-making and problem-solving skills</span>
+          </div>
+
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/adapt.png" 
+              alt="Adaptability and quick learning skills" class="language__img" />
+            </figure>
+            <span class="language__name">Adaptability and quick learning skills</span>
+          </div>
+
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/society.png" 
+              alt="Skills in adapting to society and the environment" class="language__img" />
+            </figure>
+            <span class="language__name">Skills in adapting to society and the environment</span>
+          </div>
+        </div>
+
+        <!-- HARD SKILLS -->
+        <h2 class="subtitle textcenter"><br>HARD SKILLS</h2>
+        <div class="hard__list">
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+                alt="Visual Studio Code" class="hard__img" />
+            </figure>
+            <span class="hard__name">Visual Studio Code</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="./assets/Python-logo-notext.svg.png"
+                alt="Python" class="hard__img" />
+            </figure>
+            <span class="hard__name">Python</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+                alt="C++" class="hard__img" />
+            </figure>
+            <span class="hard__name">C++</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1024px-PyCharm_Icon.svg.png"
+                alt="PyCharm" class="hard__img" />
+            </figure>
+            <span class="hard__name">PyCharm</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="./assets/HTML5_logo_and_wordmark.svg.png"
+                alt="HTML5" class="hard__img" />
+            </figure>
+            <span class="hard__name">HTML5</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="./assets/png-transparent-arduino-hd-logo-thumbnail Background Removed.png"
+                alt="Arduino IDE" class="hard__img" />
+            </figure>
+            <span class="hard__name">Arduino IDE</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://avatars.githubusercontent.com/u/33467679?s=280&v=4"
+                alt="Google Colaboratory" class="hard__img" />
+            </figure>
+            <span class="hard__name">Google Colaboratory</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://help.apple.com/assets/6679A72E92E641B6D907CD0C/6679A72FE32D2BB3610F762B/en_US/97f5f4dfe6df84d78caacff68ec63538.png"
+                alt="Final Cut Pro" class="hard__img" />
+            </figure>
+            <span class="hard__name">Final Cut Pro</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="./assets/DaVinci_Resolve_Studio.png"
+                alt="DaVinci Resolve" class="hard__img" />
+            </figure>
+            <span class="hard__name">DaVinci Resolve</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1200px-Adobe_Premiere_Pro_CC_icon.svg.png"
+                alt="Adobe Premiere Pro" class="hard__img" />
+            </figure>
+            <span class="hard__name">Adobe Premiere Pro</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png"
+                alt="Adobe Photoshop" class="hard__img" />
+            </figure>
+            <span class="hard__name">Adobe Photoshop</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="./assets/images Background Removed.png"
+                alt="Adobe Lightroom" class="hard__img" />
+            </figure>
+            <span class="hard__name">Adobe Lightroom</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://yt3.googleusercontent.com/nwwMDbhHriPt50zf7yDtpQKF7p2qgzhIg-j-FIBsvlN0WjWBFyacqpJLrB-6cVF0Jf-9lbAbpeQ=s900-c-k-c0x00ffffff-no-rj"
+                alt="Shapr3D" class="hard__img" />
+            </figure>
+            <span class="hard__name">Shapr3D</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://www.icreate.my/x/cdn/?https://storage.googleapis.com/production-websitebuilder-v1-0-8/648/201648/gYSEA5qO/e491b83e12154919b9e69d063f4b6f4a"
+                alt="FlashPrint 5" class="hard__img" />
+            </figure>
+            <span class="hard__name">FlashPrint 5</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://img.utdstc.com/icon/97a/a5e/97aa5e531fee9e0b18d7028609d091062db6e392c49e45859ba0aeeeb118eae4:200"
+                alt="UltiMaker Cura" class="hard__img" />
+            </figure>
+            <span class="hard__name">UltiMaker Cura</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/canva-icon.png"
+                alt="Canva" class="hard__img" />
+            </figure>
+            <span class="hard__name">Canva</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019–present%29.svg/1024px-Microsoft_Office_Word_%282019–present%29.svg.png"
+                alt="Microsoft Word" class="hard__img" />
+            </figure>
+            <span class="hard__name">Microsoft Word</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019–present%29.svg/826px-Microsoft_Office_Excel_%282019–present%29.svg.png"
+                alt="Microsoft Excel" class="hard__img" />
+            </figure>
+            <span class="hard__name">Microsoft Excel</span>
+          </div>
+
+          <div class="hard">
+            <figure class="hard__img--wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019–present%29.svg/2203px-Microsoft_Office_PowerPoint_%282019–present%29.svg.png"
+                alt="Microsoft PowerPoint" class="hard__img" />
+            </figure>
+            <span class="hard__name">Microsoft PowerPoint</span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- OVERVIEW SECTION  -->
+  <section id="overview">
+    <div class="container1">
+      <!-- <div class="row"> -->
+        <h1 class="section__title"><span class="text--brownuni">PERFORMANCE</span> AND <span class="text--brownuni">ACTIVITIES</span></h1>
+        
+        <div class="slideshow">
+        
+          <div class="items">
+            <img src="./assets/image.png" alt="">
+          </div>
+
+          <div class="items">
+            <img src="./assets/IMG_3233.jpg" alt="">
+          </div>
+
+          <div class="items">
+            <img src="./assets/459421006_1217835922700033_3919177896937496250_n.jpg" alt="">
+          </div>          
+
+          <div class="items">
+            <img src="./assets/dsd.png" alt="">
+          </div>
+
+          <div class="items">
+            <img src="./assets/dfdb.png" alt="">
+          </div>
+
+          <div class="items">
+            <img src="./assets/DSC_7717.jpg" alt="">
+          </div>
+
+          <div class="items">
+            <img src="./assets/IMG_4864.jpg" alt="">
+          </div>
+        </div>
+
+        <script>
+          $(document).ready(() => {
+            $('.slideshow').slick({
+              dots: true,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 2000,
+            });
+            $(".slideshow .slick-prev").html('<i class="fa-solid fa-chevron-left"></i>')
+            $(".slideshow .slick-next").html('<i class="fa-solid fa-chevron-right"></i>')
+            $(".slideshow .slick-dots li").html(' ')
+          })
+        </script>
+
+      </div>
+    </div>
+  </section>
+   
+ <!-- FOOTER  -->
+  <footer>
+    <div class="row footer__row">
+      <a href="#" class="footer__anchor">
+        <figure class="footer__logo">
+          <img src="./assets/gears.svg" class="footer__logo--img" alt="FOOTER LOGO">
+        </figure>
+        <span class="footer__logo--popper">
+          RETURN TO THE TOP
+          <i class="fas fa-arrow-up"></i>
+        </span>
+      </a>
+      <div class="footer__social--list">
+        <a href="https://www.instagram.com/thanpisit.rb/" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--black
+        " target="_blank">Instargram</a>
+
+        <a href="https://www.facebook.com/thanpisit.rb/" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--black
+        " target="_blank">Facebook</a>
+
+        <a href="https://github.com/thanpisit2006" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--black
+        " target="_blank">GitHub</a>
+
+        <a href="mailto:thanpisit2549@icloud.com" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--black
+        " target="_blank">Email</a>
+        
+        <!-- <a href="./assets/SIIT Portfolio.pdf" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--black
+        " target="_blank">Portfolio PDF File</a> -->
+
+      </div>
+      <div class="footer__copyright">Copyright © 2025 Thanpisit Ritpetchnil</div>
+    </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
